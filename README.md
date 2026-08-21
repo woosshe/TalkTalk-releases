@@ -14,6 +14,7 @@ Windows / macOS. 만든 곳 [nion.kr](https://nion.kr).
 
 ### 2026-08-21
 
+- **프로토타입 0.9.0 릴리즈** — [설치본](https://github.com/woosshe/TalkTalk-releases/releases/tag/v0.9.0)
 - **검색** — 친구·대화 목록과 대화 내용 (Enter 로 다음, Shift+Enter 로 이전)
 - **그룹에도 파일·사진 전송** (멤버마다 보내되 카드와 기록은 하나로)
 - **대화 고정·알림 끄기**, 부팅 시 **자동 실행** 토글
