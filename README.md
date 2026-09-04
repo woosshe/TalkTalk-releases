@@ -12,6 +12,10 @@ Windows / macOS. 만든 곳 [nion.kr](https://nion.kr).
 
 최신 순. 자세한 내용은 커밋 이력을 본다.
 
+### 2026-09-04
+
+- **안 읽은 대화만 보기** — 채팅 검색칸 옆 편지 아이콘. 켜면 주황색으로 켜졌음을 알린다
+
 ### 2026-08-21
 
 - **프로토타입 0.1.0 릴리즈** — [설치본](https://github.com/woosshe/TalkTalk-releases/releases/tag/v0.1.0)
