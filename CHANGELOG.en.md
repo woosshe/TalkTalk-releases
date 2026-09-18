@@ -8,7 +8,7 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ## 0.2.0 — 2026-09-19
 
-Filling in what sits around a message bubble.
+Everything you can now do with a single message.
 
 ### Added
 
