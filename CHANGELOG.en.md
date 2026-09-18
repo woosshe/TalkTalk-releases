@@ -2,7 +2,7 @@
 
 What changed in each release, newest first.
 
-Korean version: CHANGELOG.md.
+Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 

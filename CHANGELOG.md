@@ -2,7 +2,7 @@
 
 버전마다 무엇이 달라졌는지 적습니다. 최신이 위로 갑니다.
 
-영어판은 CHANGELOG.en.md.
+영어판은 [CHANGELOG.en.md](CHANGELOG.en.md).
 
 ---
 
