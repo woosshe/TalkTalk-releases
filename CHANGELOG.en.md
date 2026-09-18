@@ -8,7 +8,7 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ## 0.2.0 — 2026-09-19
 
-Everything you can now do with a single message.
+React to messages, mention people, take back what you sent, and find everything you exchanged.
 
 ### Added
 
