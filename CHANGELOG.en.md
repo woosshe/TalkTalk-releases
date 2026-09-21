@@ -6,6 +6,23 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.2.3 — 2026-09-21
+
+### Added
+
+- **New messages open their conversation window** — a tray badge alone meant messages that arrived
+  while you were away went unnoticed. The window now opens and the taskbar flashes.
+  - **Nothing you are doing is interrupted** — the window opens behind, without taking focus, so
+    what you type still goes where you were typing it
+  - A window you already have open is not reopened; only the taskbar flashes. A window you
+    minimised stays minimised
+  - **The flashing stops once you read the message**
+  - With notifications off, Do Not Disturb on, or that conversation muted, only the tray count
+    goes up, quietly
+  - Turn it off under Settings › Notifications › "Open the conversation window for new messages"
+
+---
+
 ## 0.2.2 — 2026-09-21
 
 ### Fixed
