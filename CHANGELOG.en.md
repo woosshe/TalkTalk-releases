@@ -6,6 +6,16 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.2.2 — 2026-09-21
+
+### Fixed
+
+- **Downloaded installers are always checked** — until now the contents were verified only when
+  downloading from an internal server or shared folder, not from the default public releases. Both
+  are checked now, and a mismatch stops the install
+
+---
+
 ## 0.2.1 — 2026-09-21
 
 Messages now stay in the order you exchanged them, the view follows new messages again, and updates
