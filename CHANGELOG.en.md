@@ -6,6 +6,37 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.2.1 — 2026-09-21
+
+Messages now stay in the order you exchanged them, the view follows new messages again, and updates
+tell you what they are doing.
+
+### Added
+
+- **Update progress** — a bar and "Downloading… 36%" while the installer downloads. It used to sit
+  silent for tens of seconds after you pressed the button, as if it had frozen
+- **Download and install are separate** — finishing the download no longer starts the installer.
+  Keep using the app while it downloads, and install when it suits you. The app will not close on
+  you mid-conversation
+- **You are told when a new version is out** — until now you had to open Settings to find out. A
+  dialog asks whether to download, and asks again about installing once the download finishes.
+  Choose Later and it stays quiet for six hours
+- **If someone on your network runs a newer version**, the app checks for an update then. Your
+  conversation is not affected
+
+### Fixed
+
+- **Messages appearing in the wrong order** — if the two computers' clocks differed even slightly,
+  a later message could sit above an earlier one. Each computer now uses only its own clock, so
+  messages stay in the order you exchanged them. No clock syncing needed. Times on existing
+  messages are left as they are
+- **The view not following new messages** — the message you just sent could end up off screen. This
+  affected every conversation window opened from the list
+- A failed installer download ended silently — it now tells you why
+- Install is hidden when the downloaded installer is missing or damaged
+
+---
+
 ## 0.2.0 — 2026-09-19
 
 React to messages, mention people, take back what you sent, and find everything you exchanged.
