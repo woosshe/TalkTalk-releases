@@ -6,6 +6,44 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.2.4 — 2026-09-28
+
+Messages you could not send go out on their own when the other person comes back, and the Chats
+tab search now finds text in every conversation. Notifications slide in smoothly from the edge of
+the screen.
+
+### Added
+
+- **You can send to someone who is offline** — the input box used to be blocked. Text and stickers
+  you send now go out, in the order you wrote them, as soon as the other person is back
+  - Messages still waiting show a faint "Waiting to send". Click to try again right away
+  - Files still need both of you online, so attaching stays blocked
+- **Chats tab search finds text in every conversation** — matches appear under a "Messages"
+  section with the conversation and sender. Click one to jump to that message
+- **You are told when an update has finished** — even with quiet start on. The downloaded
+  installer is cleaned up for you
+- **Notifications slide in from the edge of the screen and slide back out when they go** — when
+  several pile up, older ones glide up to make room. With Windows "Animation effects" off they fade
+  in without moving
+- **The sticker window closes on its own** — after you send a sticker, or when you move away from
+  both the sticker window and its conversation
+
+### Fixed
+
+- **Receiving a file gave no notification, sound or taskbar flash** — it now notifies like a message
+- **Remaining notifications flickered when older ones went away**
+- **A notification stayed far too long after you moved the mouse off it**
+- **Notifications sat far from the screen corner** — they now sit closer
+- **The same emoji piled up each time you switched emoji tabs**
+- **Emoji tabs looked like emoji you could send** — tabs are now icons, set apart from the list by a
+  line. The selected tab's icon is filled (the same goes for the tabs in the main and settings
+  windows)
+- **Choosing a company server with no address left update checks failing** — checks wait until you
+  enter the address
+- An error when the app was closed while someone was just connecting
+
+---
+
 ## 0.2.3 — 2026-09-21
 
 ### Added
