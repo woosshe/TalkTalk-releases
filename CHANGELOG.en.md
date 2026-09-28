@@ -6,6 +6,39 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.2.5 — 2026-09-28
+
+Tables copied from Excel now travel as tables, and people who were away from a group chat get what
+they missed.
+
+### Added
+
+- **Tables copied from Excel are sent as tables** — paste cells and a window shows the table
+  before you send it
+  - Received tables appear as a scaled picture in the bubble; click to see them full size
+  - Select and copy to paste straight back into Excel
+  - **Save as Excel, image or PDF.** Very long tables are best saved as PDF
+  - Up to about 300,000 Korean characters in one go
+- **People who were away from a group chat get what they missed** — messages sent while their app
+  was closed arrive when they start it again (the sender's app needs to be running)
+- **Offline friends can be added to group chats** — the invitation and the messages since then
+  arrive when they start the app
+- **Double-click a friend to open a 1:1 chat** — the double-click speed follows your mouse settings
+- **The friend menu has "View profile" and "Chat"**, and moving to a folder now reads "Move to …"
+- **When picking people for a group chat**, every friend shows a circle and those not picked are
+  dimmed
+
+### Fixed
+
+- **Friend "groups" are now "folders"** — they shared a name with group chats
+- **"No folder" could not be collapsed**
+- **The list showed through below the group chat bar**
+- **Selecting text with tabs painted outside the bubble**
+- **The hand cursor over sliders was too large and alternated with the move cursor at window
+  edges** — it now matches the system hand cursor's size and outline
+
+---
+
 ## 0.2.4 — 2026-09-28
 
 Messages you could not send go out on their own when the other person comes back, and the Chats
