@@ -6,6 +6,87 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.3.0 — 2026-09-30
+
+A **single window** that puts the chat list and the chat side by side, **background photos** for
+chats, and a **notification sound per chat**. The app also has a new icon.
+
+### Added
+
+- **Single window** — turn it on in Settings to see the chat list on the left and the chat on the
+  right
+  - Drag the divider to change the list width
+  - `Ctrl+↑/↓` moves to the chat above or below. Unsent text stays when you switch
+  - With "Open the conversation window for new messages" on, a window hidden in the tray comes back showing
+    that chat
+  - "Tray icon only" is remembered separately for the single and classic windows
+- **Chat background photos** — click the circle to the right of the input box to pick a color or
+  a photo
+  - Choose "Fill" or "Tile". A newly picked photo starts as "Fill"
+  - Click the photo to replace it, or the X at its top right to remove it
+  - The red-slashed circle at the front of the color row makes that chat follow the default
+    background from Settings
+  - A photo picked in Settings is used by every chat without its own background
+  - Over photos, times, names and date lines sit on a soft backing so they stay readable
+  - Backgrounds only show on your screen; they are not sent to anyone
+- **Pick a notification sound per chat** — from the chat menu. Chats without one use the sound
+  from Settings
+- **Choose where notifications appear from a picture of the screen** — they appear in that corner
+  of the screen the TalkTalk window is on
+- **Messages that arrive all at once are grouped into one notification** — starting the app after
+  a long time no longer brings a flood. Messages that mention you are still shown on their own
+- **Long chats open quickly** — the latest 200 messages come first and more load as you scroll up
+- **Reactions and "left the chat" reach people who were offline** — they arrive when their app
+  starts
+- **A group chat left with two people merges into their 1:1 chat** — the group's messages and
+  "… left the chat" appear in the 1:1 chat in time order. You can bring the person who left back
+  with "Invite people"
+- **History import shows who exported it** — history exported by someone you have chatted with
+  cannot be imported. Your own history, for example when moving to a new PC, imports as before
+- **Search within a chat starts from the newest** — it jumps to the first match as you type, and
+  Enter goes to the earlier one
+- **New app icon** — a smiling speech bubble
+
+### Fixed
+
+- **The taskbar unread badge is now a red dot** — the number was too small to read. Inside the app
+  counts still show up to 999+. The tray menu's unread count has thousands separators
+- **Dim text is darker and easier to read** — times, previews, hints and the "Unread messages" line
+- **"Sent" appears only after the other side confirms it** — a message that went to an address
+  pretending to be them could show as sent
+- **"Waiting to send" messages did not go to someone who restarted right away**
+- **When the receiver stops a file transfer**, the sender now sees "The recipient could not receive it"
+- **Files sent to a group showed their size multiplied by the number of people** — 5 MB showed
+  as "10 MB"
+- **Sending a GIF or WebP showed nothing and stalled the transfer**
+- **The app closed when a received file could not be written to disk** — only that transfer fails
+  now
+- **A lost connection now ends the transfers with that person**, and half-received files are
+  cleaned up at the next start
+- **Long file names keep their extension visible**
+- **"… left the chat" lines raised the unread count**
+- **"Yesterday" in the chat list meant the last 48 hours** — it now follows the calendar
+- **Reading older messages got pulled to the bottom when the other person typed**
+- **A changed name reached others late**
+- **Single-emoji avatars such as 👍🏽 or 🇰🇷 were drawn small**
+- **New windows appeared 1–2 seconds late or flashed empty first**
+- **Changing the default background in Settings now updates open chats right away**
+- **The hand cursor ignored the Windows cursor size** — on high-DPI screens it was half the size of
+  the system cursor
+- **A burst of messages no longer freezes the app** — received messages show right away and are
+  saved in batches
+- **A damaged database file is reported**, and you can move it aside and start fresh or quit
+- **When the discovery port is unavailable** the app says so and keeps retrying until it is free
+
+### Security
+
+- Windows can no longer open or load arbitrary files from disk. Shared-folder paths and
+  executables ask first
+- A public key alone can no longer take over someone's place
+- Closed a gap where sticker paths could serve other files
+
+---
+
 ## 0.2.5 — 2026-09-28
 
 Tables copied from Excel now travel as tables, and people who were away from a group chat get what
