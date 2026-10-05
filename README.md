@@ -1,85 +1,99 @@
 # TalkTalk
 
-같은 네트워크에 있는 사람끼리 **중앙 서버 없이** 대화하고 파일을 주고받는 데스크톱 메신저입니다.
-Windows / macOS. 만든 곳 [nion.kr](https://nion.kr).
+[English](#english)
 
-대화는 서버를 거치지 않고 두 PC 사이에서 직접 오갑니다. 계정도 가입도 없습니다.
-같은 공유기에 붙어 있으면 서로가 자동으로 목록에 나타납니다.
+같은 네트워크에 있는 사람끼리 **중앙 서버 없이** 대화하고 파일을 주고받는 데스크톱 메신저입니다.
+
+대화는 서버를 거치지 않고 두 PC 사이에서 직접 오갑니다.<br>
+계정도 가입도 없습니다. 같은 네트워크 망에 붙어 있으면 자동으로 목록에 서로가 나타납니다.
 
 ## 받기
 
-오른쪽 **Releases** 에서 설치본을 받습니다. 서명하지 않은 설치본이라 Windows SmartScreen
-경고가 뜹니다 — 「추가 정보」 > 「실행」.
+오른쪽 **Releases** 에서 설치본을 받습니다.<br>
+서명하지 않은 설치본이라 Windows SmartScreen 경고가 뜹니다.<br>
+'추가 정보' > '실행' 을 누르세요.
 
-## 0.3.0 — 2026-09-30
+## 0.4.0 - 2026-10-05
 
-대화 목록과 대화를 한 창에 두는 **일체형 창**, 대화창 **배경 사진**, 대화마다 다른 **알림음**이
-들어왔습니다. 앱 아이콘도 새로 바뀌었습니다.
+채팅 목록을 분류해서 보는 **태그**와, 실수하면 안 되는 대화방을 지키는 **입력창 잠금** 기능이 추가되었습니다.
 
 ### 추가
 
-- **일체형 창** — 설정에서 켜시면 왼쪽에 대화 목록, 오른쪽에 대화가 한 창에 보입니다
-  - 가운데 경계선을 끌어 목록 폭을 바꾸실 수 있습니다
-  - `Ctrl+↑/↓` 로 위아래 대화로 옮겨 가십니다. 대화를 바꿔도 쓰시던 글은 남아 있습니다
-  - 「새 메시지가 오면 대화창 열기」를 켜 두시면 창이 트레이에 숨어 있을 때 그 대화로 보여 드립니다
-  - 「트레이 아이콘만 사용」은 일체형 창과 기존 창에서 따로 기억합니다
-- **대화창 배경 사진** — 입력칸 오른쪽 동그라미를 누르시면 바탕색과 사진을 고르는 판이 뜹니다
-  - 「채우기」와 「반복」 중 까는 방식을 고르실 수 있습니다. 새로 고른 사진은 「채우기」로 시작합니다
-  - 사진을 누르면 다른 사진으로 바꾸고, 오른쪽 위 X 로 뺍니다
-  - 색 줄 맨 앞의 빨간 빗금 동그라미를 누르시면 그 대화는 설정의 기본 배경을 따릅니다
-  - 설정에서 고르신 사진은 따로 정하지 않은 모든 대화창에 깔립니다
-  - 사진 위에서는 시각·이름·날짜 줄을 옅은 바탕에 얹어, 사진이 밝든 어둡든 읽히게 했습니다
-  - 배경은 내 화면에만 보이고 상대에게는 가지 않습니다
-- **대화마다 알림음을 고르실 수 있습니다** — 대화창 메뉴에서 고르시고, 고르지 않은 대화는 설정의
-  알림음이 울립니다
-- **알림이 뜨는 자리를 화면 그림에서 고르십니다** — TalkTalk 창이 있는 화면의 그 구석에 뜹니다
-- **한꺼번에 밀려온 말은 알림을 묶어 드립니다** — 오래 꺼 두셨다 켜도 알림이 줄줄이 뜨지 않습니다.
-  나를 부른 말은 묶지 않고 따로 알려 드립니다
-- **긴 대화도 빨리 열립니다** — 최근 200개부터 보여 드리고, 위로 올리시면 더 불러옵니다
-- **꺼져 있던 분에게 반응과 「나갔습니다」도 전해 드립니다** — 앱을 켜시면 그사이의 것이 갑니다
-- **둘만 남은 그룹 채팅은 그분과의 1:1 대화로 합쳐집니다** — 그룹의 대화와 「○○님이 채팅방을
-  나갔습니다」가 1:1 대화 안에 시간 순서대로 들어갑니다. 나간 분은 「대화상대 초대하기」로 다시
-  부르실 수 있습니다
-- **기록 가져오기에 내보낸 사람이 보입니다** — 대화해 본 다른 분이 내보낸 기록은 가져오지 않습니다.
-  새 PC 로 옮기실 때처럼 내 기록은 그대로 가져오실 수 있습니다
-- **대화 안 찾기가 최근 글부터 찾습니다** — 치시는 대로 첫 결과로 가고, Enter 를 누르시면 그 전 글로 갑니다
-- **새 앱 아이콘** — 웃는 말풍선입니다
+- **대화 태그** - 채팅 목록 위에 전체 · 안읽음 · 내 태그가 탭으로 놓입니다
+  - 대화를 오른쪽 클릭해 '태그'에서 붙이고 뗍니다. 한 대화에 태그를 여러 개 붙일 수 있습니다
+  - 탭 줄 끝의 + 로 태그를 만들고, 태그 탭을 오른쪽 클릭해 이름 바꾸기 · 차례 바꾸기 · 삭제가 가능합니다
+  - 태그를 삭제해도 대화는 유지됩니다.
+  - 안읽음과 태그 탭에 안 읽은 메시지 수가 뜹니다
+  - 탭이 많으면 드래그나 휠로 스크롤 됩니다.
+- **입력창 잠금** - 실수하면 안 되는 대화방에 켜 두면 자물쇠를 한 번 눌러야 입력할 수 있습니다
+  - 대화창 메뉴나 채팅 목록의 오른쪽 클릭에서 '입력창 잠금'으로 켜고 끕니다
+  - 한 번 보내면 다시 잠깁니다. 다른 대화에 다녀오면 쓰던 글이 지워진 채 잠겨 있습니다
+  - 잠긴 대화는 채팅 목록과 대화창 제목 옆에 자물쇠가 보입니다
+- **대화창 메뉴의 '알림 설정'에서도 알림을 켜고 끕니다**
+
+### 바뀜
+
+- **대화창 메뉴를 정리했습니다** - 자주 쓰는 것만 두고, 알림 설정과 나머지(더 보기)는 하위 메뉴로 옮겼습니다
+- **메뉴의 켜기 · 끄기 항목은 눌러도 메뉴가 닫히지 않습니다** - 알림, 입력창 잠금, 태그를 연달아 바꿀 수 있습니다
+- **'안 읽은 대화만 보기' 단추가 '안읽음' 탭으로 바뀌었습니다**
+- **일체형 창에서 친구 탭으로 대화를 열면 왼쪽이 채팅 목록으로 넘어갑니다**
 
 ### 수정
 
-- **작업표시줄의 안 읽음 표시를 빨간 점으로** — 숫자가 작아 읽히지 않았습니다. 앱 안에서는
-  999+ 까지 숫자로 보입니다. 트레이 메뉴의 안 읽음 개수에는 세 자리마다 쉼표를 찍습니다
-- **흐린 글씨를 읽기 쉽게 진하게** — 시각·미리보기·보조 글씨와 「여기까지 읽었습니다」
-- **「보냄」은 상대가 받은 것이 확인된 뒤에 표시합니다** — 상대를 흉내 낸 가짜 주소로 간 글이
-  「보냄」으로 보일 수 있었습니다
-- **곧바로 다시 켠 상대에게 「전송 대기」 글이 가지 않던 것**
-- **받는 쪽이 파일 받기를 멈추면** 보낸 분 화면에 「상대가 받지 못했습니다」로 보입니다
-- **그룹에 보내는 파일의 크기가 인원만큼 곱해 보이던 것** — 5 MB 가 「10 MB」 로 보였습니다
-- **GIF·WebP 같은 그림을 보내면 어디에도 안 보이고 전송이 멈추던 것**
-- **받던 파일을 디스크에 쓰지 못하면 앱이 꺼지던 것** — 그 전송만 실패로 끝납니다
-- **연결이 끊기면 그 상대와의 전송을 끝내고**, 다음에 켤 때 받다 만 파일을 치웁니다
-- **긴 파일 이름도 끝의 확장자가 보입니다**
-- **누가 나갔다는 줄이 안 읽음 숫자를 올리던 것**
-- **대화 목록의 「어제」가 48시간 기준이던 것** — 달력 날짜로 셉니다
-- **위로 올려 읽는 중에 상대가 입력하면 맨 아래로 끌려 내려가던 것**
-- **바꾼 이름이 상대에게 늦게 반영되던 것**
-- **👍🏽·🇰🇷 같은 이모지 한 글자 프로필이 작게 그려지던 것**
-- **새 창이 1~2초 늦게 뜨거나, 뜰 때 빈 화면이 번쩍이던 것**
-- **설정의 기본 배경을 바꾸면 이미 열린 대화창도 곧바로 바뀝니다**
-- **손 모양 커서가 Windows 커서 크기를 따르지 않던 것** — 화면 배율이 큰 PC 에서 시스템 커서의
-  절반만 했습니다
-- **말이 한꺼번에 몰려와도 앱이 멈추지 않습니다** — 받은 말은 바로 보여 드리고 저장은 모아서
-  한 번에 합니다
-- **DB 파일이 망가져 있으면 알려 드리고** 옮겨 둔 뒤 새로 시작하거나 끝낼 수 있습니다
-- **탐색 포트를 쓸 수 없으면 화면에 알리고** 풀릴 때까지 다시 시도합니다
+- **일부 스티커가 수정되었습니다**
+- **대화창 이름 수정 버튼 위치가 어긋나던 것을 조정했습니다**
+- **상대가 꺼져 있을 때 입력칸 아래 안내가 단어 중간에서 줄이 바뀌지 않습니다**
 
-### 보안
+지난 버전은 [변경 이력](CHANGELOG.md)에 있습니다.
 
-- 창이 디스크의 아무 파일이나 열거나 불러오지 못하게 막았습니다. 공유 폴더 경로와 실행 파일은
-  열기 전에 여쭤봅니다
-- 공개키만 가지고는 상대 자리를 차지하지 못하게 했습니다
-- 스티커 경로를 통해 다른 파일을 내주던 틈을 막았습니다
+---
 
-지난 버전은 [변경 이력](CHANGELOG.md) 에 있습니다 ([English](CHANGELOG.en.md)).
+<a id="english"></a>
 
-이 저장소는 **설치본과 변경 이력만** 둡니다. 소스는 비공개입니다.
+# TalkTalk
+
+[한국어](#talktalk)
+
+A desktop messenger for people on the same network to chat and share files **without a central server**.
+
+Messages go straight between two PCs without passing through a server.<br>
+No accounts, no sign-up. Anyone on the same network shows up in your list automatically.
+
+## Download
+
+Get the installer from **Releases** on the right.<br>
+The installer is not signed, so Windows SmartScreen shows a warning.<br>
+Click 'More info' > 'Run anyway'.
+
+## 0.4.0 - 2026-10-05
+
+**Tags** to filter the chat list, and an **input lock** that guards chats where you can't afford a mistake.
+
+### Added
+
+- **Chat tags** - All, Unread and your own tags sit as tabs above the chat list
+  - Right-click a chat and use 'Tags' to add or remove them. A chat can have several tags
+  - Create a tag with the + at the end of the tab bar. Right-click a tag tab to rename, reorder or delete it
+  - Deleting a tag keeps its chats.
+  - The Unread tab and tag tabs show how many messages are unread
+  - With many tabs, drag or use the mouse wheel to scroll.
+- **Input lock** - turn it on for chats where you can't afford a mistake, and you click the lock once before typing
+  - Turn it on or off with 'Lock input' in the chat menu or by right-clicking the chat in the list
+  - It locks again after each message you send. Leave for another chat and come back, and your draft is cleared and locked
+  - Locked chats show a lock in the chat list and next to the chat title
+- **Mute and unmute from 'Notifications' in the chat menu too**
+
+### Changed
+
+- **The chat menu is tidier** - only the everyday items stay, and Notifications and the rest (More) moved into submenus
+- **On/off items no longer close the menu** - flip notifications, input lock and tags one after another
+- **The 'Show unread only' button became the Unread tab**
+- **In the single window, opening a chat from the Friends tab switches the list to Chats**
+
+### Fixed
+
+- **Some stickers were touched up**
+- **Fixed the misaligned rename button next to the chat name**
+- **The note under the input box when the other person is offline no longer breaks a word across lines**
+
+Earlier versions are in the [changelog](CHANGELOG.en.md).
