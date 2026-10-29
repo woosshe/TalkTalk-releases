@@ -6,6 +6,25 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.4.1 - 2026-10-29
+
+File transfers now live inside the chat bubbles. In groups you can see who received a file.
+
+### Added
+
+- Files you send show how many people received them. Click to see who
+- Cancel sending for people who have not received a file yet, from the bubble menu
+
+### Changed
+
+- What's new in Settings shows only the app's language
+- A sent file appears in the chat right away, and the waiting card no longer stays at the bottom
+- Accept, decline and progress for incoming files now sit in the sender's bubble. You can still receive a file you declined
+
+### Fixed
+
+- A horizontal scroll bar no longer appears on your messages with reactions
+
 ## 0.4.0 - 2026-10-05
 
 **Tags** to filter the chat list, and an **input lock** that guards chats where you can't afford a mistake.
