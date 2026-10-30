@@ -6,6 +6,15 @@ Korean version: [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
+## 0.4.2 - 2026-10-30
+
+If a firewall keeps you from seeing people on your network, you can now allow TalkTalk right from the app.
+
+### Added
+
+- When firewall settings are needed, Settings and the Friends and Chats tabs show a notice with an Allow button
+- The installer asks to allow TalkTalk through the firewall if it is not allowed yet
+
 ## 0.4.1 - 2026-10-29
 
 File transfers now live inside the chat bubbles. In groups you can see who received a file.

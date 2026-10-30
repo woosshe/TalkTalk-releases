@@ -13,24 +13,14 @@
 서명하지 않은 설치본이라 Windows SmartScreen 경고가 뜹니다.<br>
 '추가 정보' > '실행' 을 누르세요.
 
-## 0.4.1 - 2026-10-29
+## 0.4.2 - 2026-10-30
 
-파일을 주고받는 화면이 말풍선 안으로 들어왔습니다. 그룹에서는 누가 파일을 받았는지 볼 수 있습니다.
+방화벽에 막혀 같은 네트워크의 사람이 보이지 않을 때, 앱에서 바로 허용할 수 있습니다.
 
 ### 추가
 
-- 보낸 파일 아래에 받은 사람 수가 보입니다. 누르면 누가 받았는지 볼 수 있습니다
-- 보낸 파일의 말풍선 메뉴에서 아직 안 받은 사람 몫을 전송 취소할 수 있습니다
-
-### 바뀜
-
-- 설정의 변경 내용이 앱 언어에 맞는 쪽만 보입니다
-- 파일을 보내면 바로 말풍선이 남고, 아래쪽 대기 카드는 더 뜨지 않습니다
-- 받은 파일의 받기, 거절, 진행률이 보낸 사람 말풍선 안에 보입니다. 거절한 파일도 나중에 받을 수 있습니다
-
-### 고침
-
-- 이모지가 붙은 내 말풍선에서 가로 스크롤이 생기던 문제를 고쳤습니다
+- 방화벽 설정이 필요하면 설정, 친구 탭, 채팅 탭에 알림과 허용하기 단추가 보입니다
+- 설치할 때 방화벽 허용이 안 되어 있으면 허용할지 묻습니다
 
 지난 버전은 [변경 이력](CHANGELOG.md)에 있습니다.
 
@@ -53,23 +43,13 @@ Get the installer from **Releases** on the right.<br>
 The installer is not signed, so Windows SmartScreen shows a warning.<br>
 Click 'More info' > 'Run anyway'.
 
-## 0.4.1 - 2026-10-29
+## 0.4.2 - 2026-10-30
 
-File transfers now live inside the chat bubbles. In groups you can see who received a file.
+If a firewall keeps you from seeing people on your network, you can now allow TalkTalk right from the app.
 
 ### Added
 
-- Files you send show how many people received them. Click to see who
-- Cancel sending for people who have not received a file yet, from the bubble menu
-
-### Changed
-
-- What's new in Settings shows only the app's language
-- A sent file appears in the chat right away, and the waiting card no longer stays at the bottom
-- Accept, decline and progress for incoming files now sit in the sender's bubble. You can still receive a file you declined
-
-### Fixed
-
-- A horizontal scroll bar no longer appears on your messages with reactions
+- When firewall settings are needed, Settings and the Friends and Chats tabs show a notice with an Allow button
+- The installer asks to allow TalkTalk through the firewall if it is not allowed yet
 
 Earlier versions are in the [changelog](CHANGELOG.en.md).
